@@ -1,6 +1,36 @@
-// Getting Current Time 
+// Main Function 
+const main = () => {
 
-let currentDate = Date();
+    // Getting The Current Time
+    const getTime = () => {
+        let now = new Date();
+        let hours = now.getHours();
+        let minutes = now.getMinutes();
+        let seconds = now.getSeconds();
+        
+        let nowTime = `${hours}:${minutes}:${seconds}`;
+       
+        //Displaying Time
+        const showTime = () => {
+            const clock = document.querySelector('.clock');
+            clock.textContent = nowTime;
+        }
+        
+        //Updating Time
+        
+        setInterval(()=>{
+            showTime();
+        },100)
+    }   
 
-const clock = document.querySelector('.clock');
-clock.textContent = currentDate;
+
+
+
+    getTime();
+} 
+
+
+
+
+//Executing Main Function
+main();
