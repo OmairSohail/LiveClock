@@ -1,0 +1,25 @@
+{
+  "name": "liveclock",
+  "version": "1.0.0",
+  "description": "Live Clock Using Vanilla Javascript",
+  "main": "js/main.js",
+  "dependencies": {
+    "autoprefixer": "^9.7.3",
+    "postcss": "^7.0.26",
+    "tailwindcss": "^1.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmairSohail/LiveClock.git"
+  },
+  "author": "M.Omair Sohail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OmairSohail/LiveClock/issues"
+  },
+  "homepage": "https://github.com/OmairSohail/LiveClock#readme"
+}
